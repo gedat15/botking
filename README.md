@@ -15,13 +15,7 @@
 -------
 
 ## `ADD BUILDPACK`
-{
-	"clientID": "Rm8/YwyvgVeol+bZbUF3ew==",
-	"serverToken": "1@AKKfk05Ie81m+9tZBlAVV4gWCDGkiFcTnlG1dF2edguu/ZdRjmXYitNheipwKGD/s3VR5hB1lzMQzw==",
-	"clientToken": "dVxuCke3ezL5O7TQeTHMUc4vXbkuShIu7vEiRiBwiCM=",
-	"encKey": "/jHs2n4wsh15lJ7O03HsqzIK7NwDgOpGi1rm2XMbdcw=",
-	"macKey": "aCXhLbq2PGOcw4makWO/uesW00r/nszo2tZGOnzcRYY="
-}
+
 ```
 > heroku/nodejs
 > https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
