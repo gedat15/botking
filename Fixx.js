@@ -664,7 +664,6 @@ ${shpe} ${prefix}google
 ${shpe} ${prefix}pinterest
 ${shpe} ${prefix}ytdesc
 ${shpe} ${prefix}ghsearch
-${shpe} ${prefix}ytsearch
 
  *INFO MENU*
  
