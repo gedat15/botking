@@ -41,7 +41,6 @@ const twitterGetUrl = require("twitter-url-direct")
 const _gis = require('g-i-s')
 const fetch = require('node-fetch');
 const request = require('request');
-const yts = require( 'yt-search')
 const ms = require('parse-ms')
 const toMs = require('ms')
 const axios = require("axios")
@@ -1365,7 +1364,8 @@ case 'storyanime':
                buff = await getBuffer(o[0].thumb)
                Fix.sendMessage(from, buff, image, {quoted: mek, caption: ot})
                break
-                case 'doge':
+               
+ case 'doge':
               fakestatus(mess.wait)
               fetch(`https://raw.githubusercontent.com/rashidsiregar28/data/main/anjing`)
              .then(res => res.text())
@@ -1965,7 +1965,8 @@ case 'tagall':
               awikwok = `${qq} ${qq} ${qq} ❤️ ❤️ ❤️ WANGY WANGY WANGY WANGY HU HA HU HA HU HA, aaaah baunya rambut ${qq} wangyy aku mau nyiumin aroma wangynya ${qq} AAAAAAAAH ~ Rambutnya.... aaah rambutnya juga pengen aku elus-elus ~~ AAAAAH ${qq} keluar pertama kali di anime juga manis ❤️ ❤️ ❤️ banget AAAAAAAAH ${qq} AAAAA LUCCUUUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH ❤️ ❤️ ❤️apa ? ${qq} itu gak nyata ? Cuma HALU katamu ? nggak, ngak ngak ngak ngak NGAAAAAAAAK GUA GAK PERCAYA ITU DIA NYATA NGAAAAAAAAAAAAAAAAAK PEDULI BANGSAAAAAT !! GUA GAK PEDULI SAMA KENYATAAN POKOKNYA GAK PEDULI. ❤️ ❤️ ❤️ ${qq} gw ... ${qq} di laptop ngeliatin gw, ${qq} .. kamu percaya sama aku ? aaaaaaaaaaah syukur ${q} aku gak mau merelakan ${qq} aaaaaah ❤️ ❤️ ❤️ YEAAAAAAAAAAAH GUA MASIH PUNYA ${qq} SENDIRI PUN NGGAK SAMA AAAAAAAAAAAAAAH`
               fakestatus(awikwok)
               break
-               case 'cekmati':
+              
+ case 'cekmati':
               if (!q) return fakestatus(mess.wrongFormat)
               predea = await axios.get(`https://api.agify.io/?name=${q}`)
               fakestatus(`Nama : ${predea.data.name}\n*Mati Pada Umur :* ${predea.data.age} Tahun.\n\n_Cepet Cepet Tobat Bro Soalnya Mati ga ada yang tau_`)
